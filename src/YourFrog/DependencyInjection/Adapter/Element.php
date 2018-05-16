@@ -3,6 +3,7 @@
 namespace YourFrog\DependencyInjection\Adapter;
 
 use Closure;
+use YourFrog\DependencyInjection\Manager;
 use YourFrog\DependencyInjection\ElementInterface;
 
 /**
