@@ -1,0 +1,9 @@
+{
+    "name": "yourfrog/dependency-injection",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "YourFrog\\": "src/YourFrog"
+        }
+    }
+}
