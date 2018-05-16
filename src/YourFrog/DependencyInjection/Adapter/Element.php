@@ -42,10 +42,6 @@ class Element implements ElementInterface
      */
     public function create(Manager $manager)
     {
-        if( $this->share && $this->instance !== null ) {
-            return $this->instance;
-        }
-
         $callback = $this->callback;
         $this->instance = $callback($manager);
 
