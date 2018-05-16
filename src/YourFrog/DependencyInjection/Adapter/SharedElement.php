@@ -42,7 +42,7 @@ class SharedElement
      */
     public function create(Manager $manager)
     {
-        if( $this->instance === null ) {
+        if( $this->instance !== null ) {
             return $this->instance;
         }
 
