@@ -3,6 +3,7 @@
 namespace YourFrog\DependencyInjection\Adapter;
 
 use Closure;
+use YourFrog\DependencyInjection\ElementInterface;
 
 /**
  *  Struktura obsługująca pojedyńczy element w managerze

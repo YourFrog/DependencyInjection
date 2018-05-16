@@ -3,6 +3,7 @@
 namespace YourFrog\DependencyInjection\Adapter;
 
 use Closure;
+use YourFrog\DependencyInjection\ElementInterface;
 
 /**
  *  Obsługa obiektu który może mieć tylko jedną instancję
